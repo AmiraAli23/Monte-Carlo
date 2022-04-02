@@ -41,9 +41,20 @@ To calculate the current value of the portfolio, we call the current price of ea
 
 ### Savings Health Analysis
 
+We will now analyze our total crypto and share values and visualize each on a pie chart. 
 
 
+<img width="523" alt="Screen Shot 2022-04-02 at 3 41 27 PM" src="https://user-images.githubusercontent.com/99091066/161398689-af044eac-6475-44c5-b472-becb74995f2e.png">
 
+Assuming the monthly income is $12,000, and the emergency fund is equal to three times the monthly income, we caclculated the total savings and constructd an "if statement" to generate a statement depending on if the emergency funds are available. 
+
+In this case, the total savings amounted to $117,223.74
+
+<img width="533" alt="Screen Shot 2022-04-02 at 3 43 53 PM" src="https://user-images.githubusercontent.com/99091066/161398777-70a537d4-642c-4b6a-bc2b-180714a534d4.png">
+
+>Since our savings are greater than the emergency funds, $36,000, the code generated the statement above. 
+
+## Part 2 - Retirement Planning
 
 
 
