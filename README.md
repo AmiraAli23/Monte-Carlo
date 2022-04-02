@@ -56,17 +56,23 @@ In this case, the total savings amounted to $117,223.74
 
 ## Part 2 - Retirement Planning
 
+For the Monte Carlo simulation, I pulled 5 years of data for AGG and Spy and then combined the two dataframes together. After importing the MCForecastTools file that can be fond [here], I ran a simulation given the portfolio data, weights (0.4 for AGG and 0.6 for SPY), for 500 runs and 7560 trading days (30 years).
+
+<img width="517" alt="Screen Shot 2022-04-02 at 4 07 20 PM" src="https://user-images.githubusercontent.com/99091066/161399473-f95a388f-8501-4fc4-b6ca-3e4259396c1c.png">
+
+> These are the visualized cumulative portfolio return trajectories.
 
 
 
+<img width="529" alt="Screen Shot 2022-04-02 at 4 11 24 PM" src="https://user-images.githubusercontent.com/99091066/161399582-4e52db5b-ff57-4699-b3e7-a4e207276bd9.png">
+
+> Above is the probability distribution and confidence intervals. 
 
 
 
+<img width="419" alt="Screen Shot 2022-04-02 at 4 13 14 PM" src="https://user-images.githubusercontent.com/99091066/161399625-1ef84936-8d2d-426d-bd29-0be78c36bbec.png">
 
+Using the summary statistics in the table above, we can calculate with 95% confidence, that an initial investment of $20,000 can become within the range of $75,550.28 and $1,026,629.45 in 30 years.
 
-
-
-
-
-
+If this initital investment were to increase by 50%, to $30,000, we can say with 95% confidence that the value in 30 years will be between $113,325.42 and $1,539,944.17
 
